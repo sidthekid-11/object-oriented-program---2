@@ -4,7 +4,7 @@ class IOString:
         self.str1 = " "
 
     def get_string(self):
-        self.str1 = input("Enter String:")
+        self.str1 = input("Enter String: ")
 
     def print_string(self):
         print("The Result is:",self.str1.upper())
